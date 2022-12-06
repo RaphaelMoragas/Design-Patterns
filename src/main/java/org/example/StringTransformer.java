@@ -1,2 +1,5 @@
-package org.example;public class StringTransformer {
+package org.example;
+
+public interface StringTransformer {
+    void execute(StringDrink drink);
 }
